@@ -17,5 +17,10 @@
 #   Tarea Corta: Interfaz gráfica en Tkinter
 #
 #############################################################################
-import Tkinter 
->>>>>>> 291c270f0a97a700ea71efb085ac512142724cc1
+from Tkinter import *
+
+def window():
+    window = Toplevel()
+    window.title('Ventana B')
+    window.minsize(300,200)
+
