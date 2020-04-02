@@ -16,3 +16,5 @@
 #
 #   Tarea Corta: Interfaz gráfica en Tkinter
 #
+#############################################################################
+import Tkinter
