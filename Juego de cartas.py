@@ -17,13 +17,8 @@
 #   Tarea Corta: Interfaz gráfica en Tkinter
 #
 #############################################################################
-from Tkinter import *
+from tkinter import *
 import time
-
-def window():
-    window = Toplevel()
-    window.title('Ventana B')
-    window.minsize(300,200)
     
 ventana=Tk()
 ventana.title('Memoria')
