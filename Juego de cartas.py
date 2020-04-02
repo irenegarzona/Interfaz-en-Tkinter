@@ -16,3 +16,4 @@
 #
 #   Tarea Corta: Interfaz gráfica en Tkinter
 #
+amo a gamboa
