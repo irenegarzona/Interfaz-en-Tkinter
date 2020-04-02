@@ -18,6 +18,7 @@
 #
 #############################################################################
 from Tkinter import *
+import time
 
 def window():
     window = Toplevel()
