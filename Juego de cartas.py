@@ -25,11 +25,13 @@ ventana.title('Memoria'
 ventana.minsize(600,400)
 ventana.resizable(width=False, height=False)
 ventana.geometry('400x400+500+150')
-
+ventana.configure(background='black') #aqui cambie el color de el background
 
 contenedor = Canvas(ventana, width=600, height = 400, bg="#FFBED2")
 contenedor.place(x=0,y=0)
 
 magic_card = PhotoImage(file=magiccard.jpg)
-              
+            
+
+
 window.mainloop()
