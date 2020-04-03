@@ -21,7 +21,7 @@ from tkinter import *
 import time
     
 ventana=Tk()
-ventana.title('Memoria')
+ventana.title('Memoria'
 ventana.minsize(600,400)
 ventana.resizable(width=True, height=True)
 ventana.geometry('400x400+500+150')
@@ -30,4 +30,6 @@ ventana.geometry('400x400+500+150')
 contenedor = Canvas(ventana, width=600, height = 400, bg="#FFBED2")
 contenedor.place(x=0,y=0)
 
-
+magic_card = PhotoImage(file=magiccard.jpg)
+              
+window.mainloop()
