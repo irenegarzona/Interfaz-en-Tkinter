@@ -23,7 +23,7 @@ import time
 ventana=Tk()
 ventana.title('Memoria'
 ventana.minsize(600,400)
-ventana.resizable(width=True, height=True)
+ventana.resizable(width=False, height=False)
 ventana.geometry('400x400+500+150')
 
 
